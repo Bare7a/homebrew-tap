@@ -2,9 +2,9 @@
 cask "barsql" do
   arch arm: "arm64", intel: "amd64"
 
-  version "1.3.0"
-  sha256 arm:   "8cde2be08d35c8ce8c52481b8a07b3bfa04f65807996a789b96d1127b3964771",
-         intel: "6762595e7f1c4ca9f020a3005bb0b280da6e18537223ad7d087f7516880946ee"
+  version "1.3.1"
+  sha256 arm:   "8ac39ebb974c7102a77c8274fa33a2752a738238b7276c67f735dea5f2c1bc8b",
+         intel: "644a2795ed73317c87d84cc52dfcaabe762ae26a96eb70afa97b84c7d940ed54"
 
   url "https://github.com/Bare7a/BarSQL/releases/download/v#{version}/BarSQL-darwin-#{arch}.zip"
   name "BarSQL"
